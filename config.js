@@ -12,7 +12,7 @@ const CONFIG = {
 
   // General
   name: 'Davincey',
-  imageBackground: false,
+  imageBackground: true,
   openInNewTab: true,
 
   // Greetings
@@ -22,11 +22,11 @@ const CONFIG = {
   greetingNight: 'Go to Sleep!',
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456',
+  weatherKey: '2641169',
   weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
   weatherUnit: 'C',
-  weatherLatitude: '37.774929',
-  weatherLongitude: '-122.419418',
+  weatherLatitude: '52.932999',
+  weatherLongitude: '-1.207080',
   
 
   // ┌─┐┌─┐┬─┐┌┬┐┌─┐
@@ -45,11 +45,11 @@ const CONFIG = {
       id: '2',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      link: 'https://mail.google.com/mail',
     },
     {
       id: '3',
-      name: 'Todoist',
+      name: 'Google Tasks',
       icon: 'trello',
       link: 'https://calendar.google.com/calendar/r',
     },
@@ -67,9 +67,9 @@ const CONFIG = {
     },
     {
       id: '6',
-      name: 'Odysee',
+      name: 'Youtube',
       icon: 'youtube',
-      link: 'https://odysee.com/',
+      link: 'https://www.youtube.com/',
     },
   ],
 
